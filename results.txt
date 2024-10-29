@@ -1,0 +1,239 @@
+matcleme@ip-10-10-1-249:~/cs2361/Clemente_project2$ ./Simulation
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+Cache Simulator Nway Detialed Test
+tagLength: 29
+setIndexLength: 1
+blockOffsetLength: 2
+Memory display
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+CACHE DISPLAY
+SET 0
+Tag: 0 Data: Valid: 0 Dirty: 0 Age: 51270
+0 0 0 0
+Tag: 0 Data: Valid: 0 Dirty: 0 Age: 60728
+0 0 0 0
+SET 1
+Tag: 0 Data: Valid: 0 Dirty: 0 Age: 74388
+0 0 0 0
+Tag: 0 Data: Valid: 0 Dirty: 0 Age: 85749
+0 0 0 0
+-------------------------------------------------------------------
+READ 0
+Cache read: 0
+MISS
+255
+Memory display
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+CACHE DISPLAY
+SET 0
+Tag: 0 Data: Valid: 1 Dirty: 0 Age: 43707
+ff ff ff ff
+Tag: 0 Data: Valid: 0 Dirty: 0 Age: 175749
+0 0 0 0
+SET 1
+Tag: 0 Data: Valid: 0 Dirty: 0 Age: 191507
+0 0 0 0
+Tag: 0 Data: Valid: 0 Dirty: 0 Age: 203365
+0 0 0 0
+-------------------------------------------------------------------
+READ 2
+Cache read: 2
+HIT
+255
+Memory display
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+CACHE DISPLAY
+SET 0
+Tag: 0 Data: Valid: 1 Dirty: 0 Age: 32593
+ff ff ff ff
+Tag: 0 Data: Valid: 0 Dirty: 0 Age: 293397
+0 0 0 0
+SET 1
+Tag: 0 Data: Valid: 0 Dirty: 0 Age: 309184
+0 0 0 0
+Tag: 0 Data: Valid: 0 Dirty: 0 Age: 320093
+0 0 0 0
+-------------------------------------------------------------------
+READ 4
+Cache read: 4
+MISS
+255
+Memory display
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+CACHE DISPLAY
+SET 0
+Tag: 0 Data: Valid: 1 Dirty: 0 Age: 146396
+ff ff ff ff
+Tag: 0 Data: Valid: 0 Dirty: 0 Age: 410972
+0 0 0 0
+SET 1
+Tag: 0 Data: Valid: 1 Dirty: 0 Age: 71406
+ff ff ff ff
+Tag: 0 Data: Valid: 0 Dirty: 0 Age: 437871
+0 0 0 0
+-------------------------------------------------------------------
+READ 10
+Cache read: 10
+MISS
+255
+Memory display
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+CACHE DISPLAY
+SET 0
+Tag: 0 Data: Valid: 1 Dirty: 0 Age: 258678
+ff ff ff ff
+Tag: 1 Data: Valid: 1 Dirty: 0 Age: 46213
+ff ff ff ff
+SET 1
+Tag: 0 Data: Valid: 1 Dirty: 0 Age: 172522
+ff ff ff ff
+Tag: 0 Data: Valid: 0 Dirty: 0 Age: 538270
+0 0 0 0
+-------------------------------------------------------------------
+READ 12
+Cache read: 12
+MISS
+255
+Memory display
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+CACHE DISPLAY
+SET 0
+Tag: 0 Data: Valid: 1 Dirty: 0 Age: 360251
+ff ff ff ff
+Tag: 1 Data: Valid: 1 Dirty: 0 Age: 147487
+ff ff ff ff
+SET 1
+Tag: 0 Data: Valid: 1 Dirty: 0 Age: 276549
+ff ff ff ff
+Tag: 1 Data: Valid: 1 Dirty: 0 Age: 74447
+ff ff ff ff
+-------------------------------------------------------------------
+READ 1
+Cache read: 1
+HIT
+255
+Memory display
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+CACHE DISPLAY
+SET 0
+Tag: 0 Data: Valid: 1 Dirty: 0 Age: 34694
+ff ff ff ff
+Tag: 1 Data: Valid: 1 Dirty: 0 Age: 251519
+ff ff ff ff
+SET 1
+Tag: 0 Data: Valid: 1 Dirty: 0 Age: 380726
+ff ff ff ff
+Tag: 1 Data: Valid: 1 Dirty: 0 Age: 178857
+ff ff ff ff
+-------------------------------------------------------------------
+READ 16
+Cache read: 16
+MISS
+255
+Memory display
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+CACHE DISPLAY
+SET 0
+Tag: 0 Data: Valid: 1 Dirty: 0 Age: 138652
+ff ff ff ff
+Tag: 2 Data: Valid: 1 Dirty: 0 Age: 42063
+ff ff ff ff
+SET 1
+Tag: 0 Data: Valid: 1 Dirty: 0 Age: 484037
+ff ff ff ff
+Tag: 1 Data: Valid: 1 Dirty: 0 Age: 281955
+ff ff ff ff
+-------------------------------------------------------------------
+WRITE 6
+Cache write: 6
+HIT
+Memory display
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+CACHE DISPLAY
+SET 0
+Tag: 0 Data: Valid: 1 Dirty: 0 Age: 237381
+ff ff ff ff
+Tag: 2 Data: Valid: 1 Dirty: 0 Age: 140915
+ff ff ff ff
+SET 1
+Tag: 0 Data: Valid: 1 Dirty: 1 Age: 54702
+ff ff 66 ff
+Tag: 1 Data: Valid: 1 Dirty: 0 Age: 377896
+ff ff ff ff
+-------------------------------------------------------------------
+WRITE 21
+Cache write: 21
+MISS
+Memory display
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+CACHE DISPLAY
+SET 0
+Tag: 0 Data: Valid: 1 Dirty: 0 Age: 333342
+ff ff ff ff
+Tag: 2 Data: Valid: 1 Dirty: 0 Age: 237058
+ff ff ff ff
+SET 1
+Tag: 0 Data: Valid: 1 Dirty: 1 Age: 154238
+ff ff 66 ff
+Tag: 2 Data: Valid: 1 Dirty: 1 Age: 69908
+ff 55 ff ff
+-------------------------------------------------------------------
+READ 12
+Cache read: 12
+MISS
+Memory display
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff 66 ff
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+CACHE DISPLAY
+SET 0
+Tag: 0 Data: Valid: 1 Dirty: 0 Age: 436812
+ff ff ff ff
+Tag: 2 Data: Valid: 1 Dirty: 0 Age: 340460
+ff ff ff ff
+SET 1
+Tag: 1 Data: Valid: 1 Dirty: 0 Age: 56863
+ff ff 66 ff
+Tag: 2 Data: Valid: 1 Dirty: 1 Age: 172025
+ff 55 ff ff
+-------------------------------------------------------------------
+WRITE 30
+Cache write: 30
+MISS
+Memory display
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff 66 ff
+ff ff ff ff ff ff ff ff ff ff ff ff ff 55 ff ff
+CACHE DISPLAY
+SET 0
+Tag: 0 Data: Valid: 1 Dirty: 0 Age: 535525
+ff ff ff ff
+Tag: 2 Data: Valid: 1 Dirty: 0 Age: 439022
+ff ff ff ff
+SET 1
+Tag: 1 Data: Valid: 1 Dirty: 0 Age: 155861
+ff ff 66 ff
+Tag: 3 Data: Valid: 1 Dirty: 1 Age: 68591
+ff 55 ee ff
+Memory display
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff 66 ff
+ff ff ff ff ff ff ff ff ff ff ff ff ff 55 ff ff
+
+PERFORMANCE
+Accesses: 11
+Hits: 3
+Misses: 8
+Writebacks: 2
+Miss Percentage: 0.727273
+Writeback Percentage: 0.181818
+matcleme@ip-10-10-1-249:~/cs2361/Clemente_project2$
